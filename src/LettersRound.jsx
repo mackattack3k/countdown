@@ -235,11 +235,11 @@ const LettersRound = () => {
       </div>
       {!canAddMore && (
         <div className={classes.margin}>
+          <Typography variant="h6">{time}</Typography>
+          <CircularProgress variant="static" value={normalise(time / 2)} />
           <Button color="primary" onClick={startCountDown} disabled={active}>
             Start countdown
           </Button>
-          <Typography variant="h6">{time}</Typography>
-          <CircularProgress variant="static" value={normalise(time / 2)} />
         </div>
       )}
     </>

@@ -7,6 +7,7 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import LettersRound from './LettersRound';
+import NumbersRound from './NumbersRound';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -66,7 +67,7 @@ const SimpleTabs = () => {
                 <LettersRound />
             </TabPanel>
             <TabPanel value={value} index={1}>
-                Numbers
+                <NumbersRound />
             </TabPanel>
             <TabPanel value={value} index={2}>
                 Conundrum

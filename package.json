@@ -2,6 +2,7 @@
   "name": "countdown",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",

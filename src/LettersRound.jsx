@@ -10,7 +10,6 @@ import { shuffle, random } from 'lodash';
 import { v4 } from 'uuid';
 import words from './dictionary_compact.json';
 
-import './LettersRound.scss';
 import Letter from './Letter';
 
 const addLetters = ({ letter, amount, previousLetters = [] }) => {

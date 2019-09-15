@@ -1,7 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Letter.scss';
 
 const useStyles = makeStyles(theme => ({
     letter: {
